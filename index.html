@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Orrery Model</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <div id="controls">
+        <label for="speed">Orbital Speed:</label>
+        <input type="range" id="speed" min="0" max="10" step="0.1" value="1">
+        <span id="speed-value">1x</span>
+      </div>
+    <div id="popup"
+        style="display:none; position:absolute; top:50px; left:50px; background-color:#fff; padding:20px; border-radius:8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+        <div class="container">
+            <p class="container-title">Some facts about<br>Mercury</p>
+          
+            <div class="gradient-cards">
+              <div class="card">
+                <div class="container-card bg-green-box">
+                  <p class="card-title">Fastest Planet</p>
+                  <p class="card-description">Mercury is the fastest planet in our solar system – traveling through space at nearly 29 miles (47 kilometers) per second. The closer a planet is to the Sun, the faster it travels. Since Mercury is the fastest planet and has the shortest distance to travel around the Sun, it has the shortest year of all the planets in our solar system – 88 days.</p>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="container-card bg-white-box">
+                  <p class="card-title">Can't Breathe There</p>
+                  <p class="card-description">Mercury's thin atmosphere, or exosphere, is composed mostly of oxygen (O2), sodium (Na), hydrogen (H2), helium (He), and potassium (K).</p>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="container-card bg-yellow-box">
+                  <p class="card-title">Rough Surface</p>
+                  <p class="card-description">Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth's moon.</p>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="container-card bg-blue-box">
+                  
+                  <p class="card-title">Tough Place for Life</p>
+                  <p class="card-description">It is unlikely that life as we know it could survive on Mercury due to solar radiation, and extreme temperatures.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <button onclick="closePopup()" type="button" class="btn btn-outline-danger">Close</button>
+    </div>
+    <script type="module" src="script.js"></script>
+    <script>
+        function closePopup() {
+            const popup = document.getElementById('popup');
+            popup.style.display = 'none'; // Hide the popup
+        }
+    </script>
+
+</body>
+
+</html>

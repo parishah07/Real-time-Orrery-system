@@ -1,0 +1,223 @@
+[
+    {
+        "name": "Sun",
+        "path": "textures/sun.jpg",
+        "orbitRadiusX": 0,
+        "eccentricity": 0,
+        "revolutionSpeed": 0,
+        "rotationSpeed": 0.5,
+        "center": "Sun",
+        "sphereRadius": 0.5,
+        "angle": 0
+    },
+    {
+        "name": "Mercury",
+        "path": "textures/mercury.jpg",
+        "orbitRadiusX": 2.0,
+        "eccentricity": 0.203,
+        "revolutionSpeed": 4.152,
+        "rotationSpeed": 0.062,
+        "center": "Sun",
+        "sphereRadius": 0.038,
+        "angle": 0
+    },
+    {
+        "name": "Venus",
+        "path": "textures/venus.jpg",
+        "orbitRadiusX": 2.5,
+        "eccentricity": 0.074,
+        "revolutionSpeed": 1.625,
+        "rotationSpeed": -0.0015,
+        "center": "Sun",
+        "sphereRadius": 0.095,
+        "angle": 0
+    },
+    {
+        "name": "Earth",
+        "path": "textures/earth.jpg",
+        "orbitRadiusX": 3.0,
+        "eccentricity": 0.037,
+        "revolutionSpeed": 1.0,
+        "rotationSpeed": 365.0,
+        "center": "Sun",
+        "sphereRadius": 0.1,
+        "angle": 0
+    },
+    {
+        "name": "Mars",
+        "path": "textures/mars.jpg",
+        "orbitRadiusX": 4.5,
+        "eccentricity": 0.124,
+        "revolutionSpeed": 0.5317,
+        "rotationSpeed": 354.87,
+        "center": "Sun",
+        "sphereRadius": 0.053,
+        "angle": 0
+    },
+    {
+        "name": "Jupiter",
+        "path": "textures/jupiter.jpg",
+        "orbitRadiusX": 10.0,
+        "eccentricity": 0.045,
+        "revolutionSpeed": 0.0833,
+        "rotationSpeed": 8370.3,
+        "center": "Sun",
+        "sphereRadius": 0.4,
+        "angle": 0
+    },
+    {
+        "name": "Saturn",
+        "path": "textures/2k_saturn.jpg",
+        "orbitRadiusX": 15.0,
+        "eccentricity": 0.037,
+        "revolutionSpeed": 0.0339,
+        "rotationSpeed": 6206.0,
+        "center": "Sun",
+        "sphereRadius": 0.33,
+        "angle": 0
+    },
+    {
+        "name": "Uranus",
+        "path": "textures/uranus.jpg",
+        "orbitRadiusX": 25.0,
+        "eccentricity": 0.028,
+        "revolutionSpeed": 0.0119,
+        "rotationSpeed": 3557.6,
+        "center": "Sun",
+        "sphereRadius": 0.146,
+        "angle": 0
+    },
+    {
+        "name": "Neptune",
+        "path": "textures/neptune.jpg",
+        "orbitRadiusX": 30.0,
+        "eccentricity": 0.026,
+        "revolutionSpeed": 0.0061,
+        "rotationSpeed": 3354.6,
+        "center": "Sun",
+        "sphereRadius": 0.145,
+        "angle": 0
+    },
+    {
+        "name": "Moon",
+        "path": "textures/moon.jpg",
+        "orbitRadiusX": 0.45,
+        "eccentricity": 0.438,
+        "revolutionSpeed": 12.0,
+        "rotationSpeed": 0.033,
+        "center": "Earth",
+        "sphereRadius": 0.025,
+        "angle": 0
+    },
+    {
+        "name": "Phobos",
+        "path": "textures/phobos.jpg",
+        "orbitRadiusX": 0.135,
+        "eccentricity": 0.500,
+        "revolutionSpeed": 7.78,
+        "rotationSpeed": 0.002,
+        "center": "Mars",
+        "sphereRadius": 0.01,
+        "orbitRadiusY": 0.117,
+        "angle": 0
+    },
+    {
+        "name": "Deimos",
+        "path": "textures/deimos.jpg",
+        "orbitRadiusX": 0.225,
+        "eccentricity": 0.391,
+        "revolutionSpeed": 11.56,
+        "rotationSpeed": 0.001,
+        "center": "Mars",
+        "sphereRadius": 0.01,
+        "angle": 0
+    },
+    {
+        "name": "Asteroid 1",
+        "path": "textures/asteroid.jpg",
+        "orbitRadiusX": 5.0,
+        "eccentricity": 0.1,
+        "revolutionSpeed": 0.05,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.03,
+        "angle": 0
+    },
+    {
+        "name": "Asteroid 2",
+        "path": "textures/asteroid.jpg",
+        "orbitRadiusX": 5.5,
+        "eccentricity": 0.1,
+        "revolutionSpeed": 0.06,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.03,
+        "angle": 0
+    },
+    {
+        "name": "Comet 1",
+        "path": "textures/comet.jpg",
+        "orbitRadiusX": 8.0,
+        "eccentricity": 0.9,
+        "revolutionSpeed": 0.02,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.05,
+        "angle": 0
+    },
+    {
+        "name": "Comet 2",
+        "path": "textures/comet.jpg",
+        "orbitRadiusX": 12.0,
+        "eccentricity": 0.8,
+        "revolutionSpeed": 0.03,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.05,
+        "angle": 0
+    },
+    {
+        "name": "Asteroid 3",
+        "path": "textures/asteroid.jpg",
+        "orbitRadiusX": 6.0,
+        "eccentricity": 0.2,
+        "revolutionSpeed": 0.07,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.04,
+        "angle": 0
+    },
+    {
+        "name": "Asteroid 4",
+        "path": "textures/asteroid.jpg",
+        "orbitRadiusX": 7.0,
+        "eccentricity": 0.15,
+        "revolutionSpeed": 0.08,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.04,
+        "angle": 0
+    },
+    {
+        "name": "Comet 3",
+        "path": "textures/comet.jpg",
+        "orbitRadiusX": 14.0,
+        "eccentricity": 0.85,
+        "revolutionSpeed": 0.025,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.05,
+        "angle": 0
+    },
+    {
+        "name": "Comet 4",
+        "path": "textures/comet.jpg",
+        "orbitRadiusX": 16.0,
+        "eccentricity": 0.75,
+        "revolutionSpeed": 0.04,
+        "rotationSpeed": 0.1,
+        "center": "Sun",
+        "sphereRadius": 0.05,
+        "angle":0
+    }
+]

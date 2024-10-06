@@ -1,0 +1,41 @@
+[{
+    "name": "Moon",
+    "path": "textures/moon.jpg",
+    "orbitRadiusX": 0.45,
+    "orbitRadiusY": 0.405,
+    "revolutionSpeed": 12.0,
+    "rotationSpeed": 0.033,
+    "center": "Earth",
+    "sphereRadius": 0.2
+},
+{
+    "name": "Phobos",
+    "path": "textures/phobos.jpg",
+    "orbitRadiusX": 0.135,
+    "orbitRadiusY": 0.117,
+    "revolutionSpeed": 3.5,
+    "rotationSpeed": 0.002,
+    "center": "Mars",
+    "sphereRadius": 0.1
+},
+{
+    "name": "Deimos",
+    "path": "textures/deimos.jpg",
+    "orbitRadiusX": 0.225,
+    "orbitRadiusY": 0.207,
+    "revolutionSpeed": 5.2,
+    "rotationSpeed": 0.001,
+    "center": "Mars",
+    "sphereRadius": 0.1
+},
+{
+    "name": "Asteroid",
+    "path": "textures/asteroid.jpg",
+    "orbitRadiusX": 36.0,
+    "orbitRadiusY": 32.4,
+    "revolutionSpeed": 0.5,
+    "rotationSpeed": 0.1,
+    "center": "Sun",
+    "sphereRadius": 0.3
+}
+]
